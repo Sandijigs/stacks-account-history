@@ -1,4 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Stacks Account History
+
+A Next.js application for viewing Stacks blockchain account history and transactions.
+
+## Features
+
+- **Account History**: View transaction history for any Stacks address
+- **Wallet Integration**: Connect with Stacks Connect for browser extension wallets
+- **WalletConnect Support**: Mobile wallet compatibility with WalletConnect SDK v2 (Project ID: 6b87a3c69cbd8b52055d7aef763148d6)
+- **Address Search**: Look up any Stacks address without connecting a wallet
+- **Transaction Details**: Comprehensive transaction information display
+
+## WalletConnect Integration
+
+This project includes **WalletConnect SDK v2** dependencies for future mobile wallet integration:
+
+### Current Status
+- WalletConnect dependencies installed
+- Environment configured with WalletConnect Project ID
+- Ready for WalletConnect implementation
+
+### Planned Features
+- Mobile wallet connection via QR code
+- View account history from mobile wallets
+- Secure session management
+- Multi-wallet support (Xverse, Leather, etc.)
+
+### WalletConnect Configuration
+The `.env.local` file includes:
+```bash
+NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=6b87a3c69cbd8b52055d7aef763148d6
+```
 
 ## Getting Started
 
